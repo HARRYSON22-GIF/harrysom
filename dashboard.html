@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>information tech </title>
+    <link rel="stylesheet" href="information.css">
+</head>
+<body>
+    <div class="wrapper">
+    <form>
+        <h3>ENTER YOUR DETAILS</h3>
+        <label for="fullname">fullname</label>
+        <input type="text" id="fullname" placeholder="fullname"required>
+        <br><label for="username">username</label><br>
+        <input type="text" id="username" placeholder="username"required maxlength="30">
+        <br><label for="gender">gender</label>
+        <br><label for="male">male</label>
+        <input type="radio" id="male" value="male" name="gender">
+        <br><label for="female">female</label>
+        <input type="radio" id="female" value="female" name="gender">
+        <br><label for="other">other</label>
+        <input type="radio" id="other" value="other" name="gender">
+        <br><label for="email">email</label>
+        <input type="email" id="email" placeholder="steveywonder2@gmail.c0m"required>
+        <br> <label for="phone">phone number</label>
+        <input type="tel" id="phone" placeholder="+254703104135"required>
+        <br><label for="bday">birthdate</label>
+        <input type="date" id="bday"required>
+        <br><label for="set password">set password</label>
+        <input type="password" id=" set password" placeholder="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+        <div id="message">
+            <h3>Password must contain the following:</h3>
+            <p id="letter" class="invalid">A <b>lowercase</b> letter</p>
+            <p id="capital" class="invalid">A <b>capital (uppercase)</b> letter</p>
+            <p id="number" class="invalid">A <b>number</b></p>
+            <p id="length" class="invalid">Minimum <b>8 characters</b></p>
+          </div>
+        <br><label for="confirm password">confirm password</label>
+        <input type="password" id=" confirm password" placeholder="password"required>
+        <br><input type="reset">
+        <br><div class="policy">
+            <input type="checkbox" required>
+                <h2>I accept terms & condition</h2>
+        </div>
+        <br/><button class="button" onclick="location.href='dashbad.html'">register</button>
+    </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,243 @@
+.css1{
+    background-color:yellow;
+    font-size:50px;
+    font-family: georgia;
+    font-style:italic;
+    font-weight:bold;
+    color:purple;
+    text-shadow: 2px 2px 8px #FF0000;
+  }
+  table, th, td {
+    border: 3px solid;
+    justify-content: center;
+  }
+ P.table, th, td{
+    margin: 20px;
+    padding: 20px;
+    align-self: center;
+    background-color: aqua;
+    border: rgb(51, 43, 58);
+    justify-content: center;
+    align-items: center;
+
+ }
+ .footer{
+  text-align: center;
+  justify-content: baseline;
+}
+ h1{
+  font-size: 50px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
+  .css2{
+    color:blue;
+    background-color:lightpink;
+    font-size:30px;
+    font-family: Leelawadee UI Semilight;
+    font-style:italic;
+    font-weight:600;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 8px blue;
+  }
+  
+  .css3{
+    background-image: url(img_5terre.jpg);
+    background-color:rgb(159, 233, 243);
+    border: 5px solid;
+    border-radius: 10px;
+  }
+  
+  .css4{
+    color:rgb(238, 8, 8);
+    font-size: 15px;
+    font-style: italic;
+    font-family: Georgia;
+    font-weight:bold;
+    word-spacing:2px;
+  }
+  .button {
+    display: inline-block;
+    font-family: "Montserrat", "Trebuchet MS", Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    position: relative;
+    padding: .8em 1.4em;
+    padding-right: 4.7em;
+    background: #009ED8;
+    border: none;
+    color: white;
+    transition: .2s;
+    &:before,
+    &:after {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      padding-top: inherit;
+      padding-bottom: inherit;
+      width: 2.8em;
+      content: "\00a0";
+      font-family: 'FontAwesome', sans-serif;
+      font-size: 1.2em;
+      text-align: center;
+      
+      transition: .2s;
+      transform-origin: 50% 60%;
+    }
+    &:before {
+      background:  fadeout(#000, 90%);
+    }
+    &:hover {
+      background: darken(#009ED8, 10%);
+    }
+    &:active,
+    &:focus {
+      background: darken(#009ED8, 30%);
+      outline: none;
+    }
+  }
+  
+  .button {
+    min-width: 15em;
+  }
+  
+  #navlist {
+    background-color: green;
+    overflow: hidden;
+    padding: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#navlist a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+#navlist a:hover {
+    background-color: darkgreen;
+    color: white;
+}
+
+.search {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.search input[type="text"] {
+    padding: 6px;
+    margin-right: 10px;
+    border: none;
+    font-size: 17px;
+    border-radius: 4px;
+}
+
+.search button {
+    padding: 6px 10px;
+    background: white;
+    color: green;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.search button i {
+    font-size: 18px;
+}
+
+.search button:hover {
+    background: darkgreen;
+    color: white;
+}
+@media screen and (max-width: 600px) {
+    #navlist {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .search {
+        justify-content: flex-start;
+        width: 100%;
+        margin-top: 10px;
+        padding-left: 10px;
+    }
+
+    .search input[type="text"] {
+        margin-right: 10px;
+        width: auto;
+    }
+
+    .search button {
+        padding: 4px 8px;
+    }
+
+    .search button i {
+        font-size: 14px;
+    }
+
+    #navlist a {
+        width: 100%;
+        text-align: left;
+        padding: 10px 20px;
+    }
+}
+#message {
+    display:none;
+    background: #f1f1f1;
+    color: #000;
+    position: relative;
+    padding: 20px;
+    margin-top: 10px;
+  }
+  
+  #message p {
+    padding: 10px 35px;
+    font-size: 18px;
+  }
+  
+  /* Add a green text color and a checkmark when the requirements are right */
+  .valid {
+    color: green;
+  }
+  
+  .valid:before {
+    position: relative;
+    left: -35px;
+    content: "&#10004;";
+  }
+  
+  /* Add a red text color and an "x" icon when the requirements are wrong */
+  .invalid {
+    color: red;
+  }
+  
+  .invalid:before {
+    position: relative;
+    left: -35px;
+    content: "&#10006;";
+  }
+h2{
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+.wrapper{
+    position: relative;
+     width: 400px;
+     height: 440px;
+     background: transparent;
+     border: 2px solid rgba(255, 255, 255, .5);
+     border-radius: 50px;   
+     box-shadow: 0 0 60px rgba(26, 197, 11, 0.473);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    }

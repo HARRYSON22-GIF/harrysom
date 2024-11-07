@@ -1,0 +1,30 @@
+Demo Questions
+
+    Question: "which language runs in web browser?",
+    a: "java",
+    b: "c",
+    c: "python",
+    d: "javascript",
+    correct: "d",
+
+    Question: "what does css stand for?",
+    a: "central style sheet",
+    b: "cascading style sheet",
+    c: "cascading simple sheet",
+    d: "cara susv sallboats",
+    correct: "b",
+
+    Question: "what does html stand for?",
+    a: "Hypertext markup language",
+    b: "Hypertext markdown language",
+    c: "Hyperloop machine language",
+    d: "helicopter terminals motorboats lamborginis",
+    correct: "a",
+
+    Question: "what year was java script launched?",
+    a: "1996",
+    b: "1955",
+    c: "1994",
+    d: "none of the above",
+    correct: "d",
+
